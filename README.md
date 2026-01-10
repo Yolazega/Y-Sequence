@@ -60,6 +60,7 @@ Raw `.json` output from the IBM Quantum "Fidelity Campaign". Contains 24,000+ me
 *   [**Vol 4: Hardware Blueprints**](docs/Vol4_Hardware_Blueprints.md) - Implementation on Transmon Qubits.
 *   [**Vol 5: The Resonant OS**](docs/Vol5_Resonant_OS.md) - Socio-Ethical Implications for AI.
 *   [**Vol 6: Entanglement Consensus**](docs/Vol6_Entanglement_Consensus.md) - The "Monistic Wavefunction" theory.
+*   [**Legacy Math Foundation**](docs/Legacy_Mathematical_Foundation.md) - The original 4D Quaternion derivation (2024).
 
 ---
 
