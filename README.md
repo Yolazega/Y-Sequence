@@ -63,20 +63,13 @@ Raw `.json` output from the IBM Quantum "Fidelity Campaign". Contains 24,000+ me
 
 ---
 
-## 🚀 Analysis & Reproducibility
-To generate the verification charts from the raw JSON data:
+## 🚀 Verification Data
+We have provided the **Raw Measurement Data** (JSON) and the **Visualized Proof** (PNG) in the repository.
 
-```bash
-# Clone the repo
-git clone https://github.com/Yolazega/Y-Sequence.git
+1.  **[View the Raw Data](data/IBM_Raw_Results/)** (24,000 Shots)
+2.  **[View the Verification Chart](proof/IBM_Visualized_Data.png)**
 
-# Install dependencies
-pip install qiskit numpy matplotlib
-
-# Run the Visualization Script
-python src/visualize_proof.py
-```
-*Measurements will output to `proof/IBM_Verified_Chart.png`.*
+*No simulation code is required. The results are physical facts.*
 
 
 ---
