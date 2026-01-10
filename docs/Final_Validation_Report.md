@@ -3,7 +3,7 @@
 **Synthesis of Metrics, Hardware Data, and Strategic Implications**
 
 ## 1. Executive Summary
-The Y-Sequence project set out to test the hypothesis that specific topological constants ($\pi^2/\phi$) could induce stability in quantum and neural systems. This report confirms the hypothesis was validated through three independent vectors:
+The Y-Sequence project set out to test the hypothesis that specific topological constants (pi^2/phi) could induce stability in quantum and neural systems. This report confirms the hypothesis was validated through three independent vectors:
 1.  **Mathematical Derivation:** The topology of 4D quaternion manifolds.
 2.  **Stochastic Simulation:** Large-scale agent testing (N=100).
 3.  **Hardware Verification:** Physical execution on IBM Quantum 'Torino'.
