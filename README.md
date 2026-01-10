@@ -63,13 +63,14 @@ Raw `.json` output from the IBM Quantum "Fidelity Campaign". Contains 24,000+ me
 
 ---
 
-## 🚀 Verification Data
-We have provided the **Raw Measurement Data** (JSON) and the **Visualized Proof** (PNG) in the repository.
+## 🚀 Verification & Reproducibility
+We provide the **exact circuit definitions** used on the IBM 'Torino' processor. You can run these natively on any Qiskit-compatible backend.
 
-1.  **[View the Raw Data](data/IBM_Raw_Results/)** (24,000 Shots)
-2.  **[View the Verification Chart](proof/IBM_Visualized_Data.png)**
+1.  **[OpenQASM 2.0 Definition](proof/verified_circuit.qasm)** (Universal Standard)
+2.  **[Qiskit Python Circuit](proof/verified_circuit.py)** (Direct Implementation)
+3.  **[View the Verification Chart](proof/IBM_Visualized_Data.png)**
 
-*No simulation code is required. The results are physical facts.*
+*No simulation code is required. These are the physical instructions executed on the hardware.*
 
 
 ---
