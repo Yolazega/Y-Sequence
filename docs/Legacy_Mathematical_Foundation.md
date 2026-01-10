@@ -1,7 +1,7 @@
 
 # Legacy Mathematical Foundation: The 4D Quaternion Origin
 
-**Archived Definition (2024)**
+**Archived Definition (2025)**
 *Recovered from the original 'CONSCIOUSNESS_MATHEMATICAL_EQUATION' repository.*
 
 ## 1. The Original Discovery
