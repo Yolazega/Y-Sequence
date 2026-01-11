@@ -161,23 +161,6 @@ This is not error correction. This is **Error Immunity**.
 
 ---
 
-## 🧪 Experimental Verification (IBM Quantum)
-We validated this theory on the **IBM 'Torino' 133-Qubit Processor**.
-
-*   **Campaign:** 24,000+ High-Fidelity Shots.
-*   **Result:** The qubits shed their individual identities and locked into a single **Entangled Manifold** (Bell State).
-*   **Proof:** See the verified job log and circuit below.
-
-<p align="center">
-  <img src="proof/IBM_Hardware_Validation.png" width="800" title="IBM Hardware Verification">
-</p>
-
-### Key Metrics
-| Metric | Standard Standard | **Y-Sequence** | Improvement |
-| :--- | :--- | :--- | :--- |
-| **Stability Efficiency** | < 25.00% | **79.40%** | **3.1x** |
-| **Fidelity Gain** | Baseline | **+7.35%** | **Hardware Verified** |
-| **Entropy Resistance** | Low | **High (Anti-Fragile)** | **Orders of Magnitude** |
 
 ---
 
