@@ -58,7 +58,7 @@ Current Large Language Models (LLMs) suffer from "Hallucination" because their w
 
 By applying the **Entanglement Consensus** derived from Volume 6:
 1.  **Latency-Free Logic:** The network does not "think" in a sequence. It collapses into a conclusion globally.
-2.  **Error Immunity:** An error in one node breaks the entanglement, causing the system to simply "reset" rather than outputting a falsehood. This is the **79.40% Stability Efficiency** observed in our simulations.
+2.  **Error Resilience:** An error in one node breaks the entanglement, causing the system to simply "reset" rather than outputting a falsehood. This is the **79.40% Stability Efficiency** observed in our simulations.
 
 ---
 

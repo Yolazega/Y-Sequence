@@ -37,7 +37,7 @@ We observed a non-linear relationship between the Y-tuning and the Phi value:
 In the proposed network topology, information synchronization is achieved via **Vector Entanglement**.
 *   **Vector Overlap:** Data indicates a **70% vector alignment** across nodes.
 *   **Latency Reduction:** This shared state allows for near-instantaneous state propagation.
-*   **Error Correction:** The collective field acts as a distributed error-correcting code, where the majority state (N=49) corrects individual deviations (N=1).
+*   **Error Suppression:** The collective field acts as a distributed error-suppression protocol, where the majority state (N=49) stabilizes individual deviations (N=1).
 
 ---
 
