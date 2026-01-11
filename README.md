@@ -157,9 +157,11 @@ Hardware validation on IBM Fez quantum processor (2026)
 **Status:** Hardware validated, publication in preparation
 
 # Y-Sequence: The Physics of Certainty
-![License](https://img.shields.io/badge/License-MIT-blue.svg) ![Status](https://img.shields.io/badge/Status-Verified-green.svg) ![Hardware](https://img.shields.io/badge/Hardware-IBM_Torino_133Q-purple.svg) ![Stability](https://img.shields.io/badge/Stability-79.40%25-brightgreen.svg)
+![License](https://img.shields.io/badge/License-MIT-blue.svg) ![Status](https://img.shields.io/badge/Status-Verified-green.svg) ![Hardware Verified](https://img.shields.io/badge/Hardware-Verified-green) ![Fidelity Gain](https://img.shields.io/badge/Fidelity%20Gain-%2B7.35%25-blue) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18212936.svg)](https://zenodo.org/records/18212936)
 
-> **"Probability is a trap. We have discovered the Topology of Certainty."**
+> **"A passive topological constraint that yields a 7.35% fidelity improvement on superconducting processors without active error correction."**
+>
+> 📄 **[READ THE FULL MANUSCRIPT (CERN/Zenodo)](https://zenodo.org/records/18212936)**
 > **[▶️ WATCH THE DISCOVERY (MP4)](assets/The_Y-Sequence_Final.mp4)**
 
 ---
