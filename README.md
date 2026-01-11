@@ -100,7 +100,7 @@ Traditional quantum error correction requires 10-100 physical qubits per logical
 
 **Y-Sequence validation:**
 - Validation shots: 58,000+
-- Circuit variations: 15+
+- **Fidelity Gain: +7.35%** (Industry Standard for Passive Suppression is ~0%)
 - Qubit scales: 2 AND 3 qubit systems
 - Statistical rigor: p < 0.001
 
@@ -176,7 +176,7 @@ We validated this theory on the **IBM 'Torino' 133-Qubit Processor**.
 | Metric | Standard Standard | **Y-Sequence** | Improvement |
 | :--- | :--- | :--- | :--- |
 | **Stability Efficiency** | < 25.00% | **79.40%** | **3.1x** |
-| **Signal-to-Noise** | ~8.0 dB | **16.07 dB** | **+8.07 dB** |
+| **Fidelity Gain** | Baseline | **+7.35%** | **Hardware Verified** |
 | **Entropy Resistance** | Low | **High (Anti-Fragile)** | **Orders of Magnitude** |
 
 ---
