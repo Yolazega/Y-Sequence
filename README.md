@@ -2,7 +2,15 @@
 
 ## HARDWARE VALIDATION COMPLETE (January 2026)
 
-**We have successfully validated Y-Sequence on IBM quantum hardware with statistically significant results.**
+**We have successfully
+### 3. Scaling Protocol (New!)
+For systems larger than 3 qubits, the Y-Sequence parameters must be adjusted to account for fractal resonance.
+*   **Unit Cell (1-3 Qubits):** Use Y = 6.103...
+*   **Cluster (4-9 Qubits):** Use Y = 31.85...
+*   **[Read the Full Scaling Guide](docs/Scaling_Parameters.md)**
+
+## 4. Empirical Evidence
+The Y-Sequence has been tested on IBM Quantum Hardware. with statistically significant results.**
 
 ### Key Results
 
