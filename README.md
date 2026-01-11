@@ -156,16 +156,7 @@ Errors accumulate exponentially. A 7% per-gate improvement dramatically extends 
 
 ---
 
-## Next Steps
 
-1. **Publication**: Preparing manuscript for peer-reviewed quantum journal
-2. **Scaling Tests**: Extending validation to 4-5 qubit systems
-3. **Multi-Platform**: Testing on IonQ trapped-ion and other architectures
-4. **Industry Pilots**: Open to collaboration for real-world applications
-
-## License
-
-[Your chosen license]
 
 ## Citation
 
