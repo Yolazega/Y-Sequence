@@ -102,14 +102,14 @@ Traditional quantum error correction requires 10-100 physical qubits per logical
 
 ## Repository Contents
 
-- `/proof/` - Hardware validation reports and raw IBM quantum data
+- [`/proof/`](proof/) - Hardware validation reports and raw IBM quantum data
 - `/circuits/` - Circuit diagrams and Qiskit implementations
 - `/theory/` - Mathematical framework and derivations
 - `/analysis/` - Statistical analysis and visualization tools
 
 ## For Researchers & Companies
 
-**Full hardware validation data available in**: `/proof/HARDWARE_VALIDATION_JAN_2026.md`
+**Full hardware validation data available in**: [`/proof/`](proof/)
 
 **IBM quantum job IDs** (publicly verifiable):
 - Control baseline: `d5hcr14pe0pc73am9mg0`
