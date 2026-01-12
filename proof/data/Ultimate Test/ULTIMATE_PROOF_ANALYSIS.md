@@ -321,7 +321,7 @@ The "Ultimate Proof" folder is your definitive evidence.**
 - Statistical significance (70,000+ total measurements)
 - Hardware independence (works on Eagle r3 AND Heron r3)
 
-**What Nature cares about:**
+**What we found:**
 - ✅ Phenomenon is real (not simulation artifact)
 - ✅ Phenomenon is robust (works across configurations)
 - ✅ Phenomenon is reproducible (multiple experiments confirm)
