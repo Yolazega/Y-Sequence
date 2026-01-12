@@ -40,6 +40,8 @@ We have successfully scaled the Y-Sequence beyond the initial 3-qubit limit.
 *   **[Read the Full Scaling Guide](docs/Scaling_Parameters.md)**
 
 ## 4. Empirical Evidence
+> **[📂 Access Full Dataset (proof/data)](proof/data)**
+
 The Y-Sequence has been tested on IBM Quantum Hardware with statistically significant results.
 
 ### Key Results
