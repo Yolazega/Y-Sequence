@@ -183,7 +183,7 @@ Hardware validation on IBM Fez quantum processor (2026)
 > **"A passive topological constraint that yields a 7.35% fidelity improvement on superconducting processors without active error correction."**
 >
 > 📄 **[READ THE FULL MANUSCRIPT (CERN/Zenodo)](https://zenodo.org/records/18212936)**
-> **[▶️ WATCH THE DISCOVERY (MP4)](assets/The_Y-Sequence_Final.mp4)**
+> **[▶️ WATCH THE DISCOVERY (NotebookLM Video)](https://x.com/NAG_NeuralAgent/status/2010410581627666832)**
 
 ---
 
