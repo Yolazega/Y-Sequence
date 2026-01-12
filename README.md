@@ -2,8 +2,6 @@
 
 > [!IMPORTANT]
 > **MAJOR BREAKTHROUGH (Jan 12, 2026):** We have achieved **3.7σ Statistical Significance** on 7-Qubit Chains. The system demonstrates a distinct "Topological Control" effect that suppresses random noise. [View Full Research Summary](proof/FINAL_COMPREHENSIVE_RESEARCH_SUMMARY.md).
->
-> 📄 **[READ THE FULL MANUSCRIPT (CERN/Zenodo)](https://zenodo.org/records/18212936)**
 
 ## HARDWARE VALIDATION COMPLETE (January 2026)
 
@@ -95,6 +93,8 @@ We have organized the verification data into a clean, audit-ready structure:
     *   `proof/data/` - Raw logs from initial exploratory runs.
 *   [`docs/`](docs/) - Theoretical background and scaling parameter guides.
 *   *(Circuits and raw definitions are embedded in the main reports)*
+
+> 📄 **[READ THE FULL MANUSCRIPT (CERN/Zenodo)](https://zenodo.org/records/18212936)**
 
 ---
 
