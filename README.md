@@ -10,7 +10,7 @@
 ### Key Achievements (The 4 Core Discoveries)
 
 ✅ **1. Free Software Upgrade** - +7.35% relative fidelity improvement (no hardware changes)
-✅ **2. Hyper-Symmetry** - Discovered unprecedented "Inversion" (Ratio 0.88) on Rings and "Protection" (Ratio 1.40) on Chains
+✅ **2. Hyper-Symmetry** - Discovered unprecedented "Inversion" (Ratio 0.88 on Eagle, **0.93 on Heron**) on **Chains**, and "Hyper-Damping" (Ratio 2.32) on **Rings**.
 ✅ **3. Cross-Platform Reproducibility** - Validated on IBM Fez (Eagle) and IBM Torino (Heron)
 ✅ **4. Zero Overhead** - No ancilla qubits, no circuit depth penalty
 
@@ -40,7 +40,7 @@ The Y-Sequence has been tested on IBM Quantum Hardware with statistically signif
 
 | Metric | Value |
 |--------|-------|
-| **Platform** | IBM Fez (127-qubit superconducting processor) |
+| **Platform** | IBM Fez (Eagle) & **IBM Torino (Heron)** |
 | **Total Measurement Shots** | 70,000+ |
 | **Fidelity Improvement** | **+3.69 pp** (+7.35% Relative) |
 | **Statistical Significance** | p < 0.001 |
