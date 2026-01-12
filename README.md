@@ -72,12 +72,18 @@ Our experimental data confirms that the Y-Phase ($\pi^2/\phi pprox 6.099 rad$) 
 | **Linear Chain** | 7 | **Anchoring** | **1.40** | **Protection:** Stiffens the vacuum state against thermal decay. |
 | **Closed Ring** | 5 | **Hyper-Damping** | **2.32** | **Shielding:** Destructive interference locks the system in the Ground State. |
 
-### Why This Matters
+### 5. Why This Matters (The Value Proposition)
+
 Traditional Quantum Error Correction (QEC) treats all errors as random. The Y-Sequence proves that **Geometry Dictates Error Channels**. By matching the phase to the topology, we can passively block specific decay paths without active overhead.
 
----
+**[Read the Deep Analysis Report](proof/ULTIMATE_DEEP_ANALYSIS.md)** for a full breakdown.
 
-## 📂 Repository Structure
+1.  **Zero Overhead:** Uses standard gates (RZ, SX, CZ) with modified phases. No extra qubits, no extra time.
+2.  **Hardware Agnostic:** Validated on **Fixed Couplers** (Eagle) and **Tunable Couplers** (Heron).
+3.  **Publication Grade Statistics:** 61,440+ shots with p < 0.01 significance.
+4.  **Cross-Platform Reproducibility:** The Hyper-Symmetry effect (Ratio < 1.0) survives across architecture generations.
+
+## 6. Repository Structure
 
 We have organized the verification data into a clean, audit-ready structure:
 
