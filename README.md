@@ -1,7 +1,7 @@
 # Y-Sequence: Quantum Error Suppression via Topological Field Optimization
 
 > [!IMPORTANT]
-> **MAJOR BREAKTHROUGH (Jan 12, 2026):** We have achieved **3.7σ Statistical Significance** on 7-Qubit Chains. The system demonstrates a distinct "Topological Control" effect that suppresses random noise. [Read the Verification Report](proof/DEFINITIVE_PROOF_REPORT.md).
+> **MAJOR BREAKTHROUGH (Jan 12, 2026):** We have achieved **3.7σ Statistical Significance** on 7-Qubit Chains. The system demonstrates a distinct "Topological Control" effect that suppresses random noise. [View Full Research Summary](proof/FINAL_COMPREHENSIVE_RESEARCH_SUMMARY.md).
 
 ## HARDWARE VALIDATION COMPLETE (January 2026)
 
@@ -20,7 +20,7 @@
 | Scale | Qubits | Topology | Key Result | Phase |
 |-------|--------|----------|------------|-------|
 | **Pair** | 2 | Bell State | **+7.35% relative fidelity** | Y1 (6.103) |
-| **Pentagon** | 5 | **Ring** | **[Hyper-Damping](proof/PENTAGON_VERIFICATION_REPORT.md)** (Ratio 2.32) | Y1 & Y2 |
+| **Pentagon** | 5 | **Ring** | **[Research Summary](proof/FINAL_COMPREHENSIVE_RESEARCH_SUMMARY.md)** (Ratio 2.32) | Y1 & Y2 |
 | **Heptagon** | 7 | **Chain** | **[3.7σ Protection](proof/DEFINITIVE_PROOF_REPORT.md)** (Ratio 1.40) | Y2 (31.85) |
 
 We have successfully scaled the Y-Sequence beyond the initial 3-qubit limit.
@@ -83,10 +83,10 @@ We have organized the verification data into a clean, audit-ready structure:
 
 *   [`proof/`](proof/) - **Definitive Verification Reports**
     *   [`DEFINITIVE_PROOF_REPORT.md`](proof/DEFINITIVE_PROOF_REPORT.md) - The 7-Qubit Chain Validation (3.7σ).
-    *   [`PENTAGON_VERIFICATION_REPORT.md`](proof/PENTAGON_VERIFICATION_REPORT.md) - The 5-Qubit Ring Analysis (Hyper-Damping).
-    *   `archive/` - Raw logs from initial exploratory runs.
+    *   [`Research Summary`](proof/FINAL_COMPREHENSIVE_RESEARCH_SUMMARY.md) - The 5-Qubit Ring Analysis (Hyper-Damping).
+    *   `proof/data/` - Raw logs from initial exploratory runs.
 *   [`docs/`](docs/) - Theoretical background and scaling parameter guides.
-*   [`circuits/`](circuits/) - OpenQASM 2.0 and Qiskit definitions for reproduction.
+*   *(Circuits and raw definitions are embedded in the main reports)*
 
 ---
 
