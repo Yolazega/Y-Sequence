@@ -311,8 +311,6 @@ This comprehensive batch job tested **15 different Y-sequence configurations**, 
 # PART III: QUANTITATIVE RESULTS
 
 ## Fidelity Improvements Across Qubit Counts
-![Figure 2: Relative Fidelity Scaling](assets/Fig2_Fidelity_Scaling.png)
-
 
 ### Complete Performance Table
 
@@ -390,8 +388,6 @@ This provides:
 ---
 
 ## Three Discovered Regimes of Y-Sequence Behavior
-![Figure 1: The 3 Topological Phases of Control](assets/Fig1_Topological_Phases.png)
-
 
 ### Topology-Dependent Quantum Control
 
