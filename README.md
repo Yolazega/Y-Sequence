@@ -123,7 +123,12 @@ We have organized the verification data into a clean, audit-ready structure:
 **Preferred Citation:**
 > **Y-Sequence Research Group.** (2026). *Topological Phases of Quantum Error Suppression: From Hyper-Damping to Protection.* GitHub Repository.
 
-**License:** MIT License.
+**License:** **Hybrid Protection Model**
+
+*   **Code & Scripts:** [GNU GPLv3](LICENSE) (Open Source, Copyleft). You may use the code, but any modifications **must** be open-sourced.
+*   **Research & Text:** [CC BY-NC-ND 4.0](LICENSE) (Creative Commons). You may share this work with credit, but you **cannot** sell it or modify the core findings.
+
+![GPLv3](https://img.shields.io/badge/License-GPLv3-blue.svg) ![CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC_BY--NC--ND_4.0-lightgrey.svg)
 
 ---
 *Verified by The Y-Sequence Research Group, Jan 2026.*

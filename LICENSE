@@ -1,0 +1,76 @@
+HYBRID PROTECTION LICENSE MODEL
+===============================
+
+This repository is dual-licensed to maximize Open Science accessibility while preventing commercial exploitation.
+
+1. CODE & SCRIPTS (GPLv3)
+-------------------------
+All source code, scripts (Python, OpenQASM), and software tools in this repository are licensed under the **GNU General Public License v3.0 (GPLv3)**.
+
+You are free to:
+- Use the code privately.
+- Modify the code.
+- Distribute the code.
+
+Under the condition that:
+- Any changes or derivative works MUST be Open Source under the same license (GPLv3).
+- You cannot close-source this code for commercial products without releasing your source code.
+
+2. RESEARCH, TEXT & DATA (CC BY-NC-ND 4.0)
+------------------------------------------
+All documentation, research papers (Markdown/PDF), experimental data, and non-code assets are licensed under the **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)**.
+
+You are free to:
+- Share, copy, and redistribute the material in any medium or format.
+
+Under the condition that:
+- **Attribution:** You must give appropriate credit (cite "Y-Sequence Research Group"), provide a link to the license, and indicate if changes were made.
+- **NonCommercial:** You may NOT use the material for commercial purposes.
+- **NoDerivatives:** If you remix, transform, or build upon the material, you may not distribute the modified material.
+
+---
+
+GNU GENERAL PUBLIC LICENSE
+Version 3, 29 June 2007
+
+Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+Everyone is permitted to copy and distribute verbatim copies
+of this license document, but changing it is not allowed.
+
+Preamble
+
+The GNU General Public License is a free, copyleft license for
+software and other kinds of works.
+
+(Full text of GPLv3 follows...)
+
+TERMS AND CONDITIONS
+
+0. Definitions.
+"This License" refers to version 3 of the GNU General Public License.
+"Copyright" also means copyright-like laws that apply to other kinds of
+works, such as semiconductor masks.
+"The Program" refers to any copyrightable work licensed under this
+License.  Each licensee is addressed as "you".  "Licensees" and
+"recipients" may be individuals or organizations.
+
+To "modify" a work means to copy from or adapt all or part of the work
+in a fashion requiring copyright permission, other than the making of an
+exact copy.  The resulting work is called a "modified version" of the
+earlier work or a work "based on" the earlier work.
+
+A "covered work" means either the unmodified Program or a work based
+on the Program.
+
+To "propagate" a work means to do anything with it that, without
+permission, would make you directly or secondarily liable for
+infringement under applicable copyright law, except executing it on a
+computer or modifying a private copy.  Propagation includes copying,
+distribution (with or without modification), making available to the
+public, and in some countries other activities as well.
+
+To "convey" a work means any kind of propagation that enables other
+parties to make or receive copies.  Mere interaction with a user through
+a computer network, with no transfer of a copy, is not conveying.
+
+... [For full text, see https://www.gnu.org/licenses/gpl-3.0.txt] ...
