@@ -311,6 +311,8 @@ This comprehensive batch job tested **15 different Y-sequence configurations**, 
 # PART III: QUANTITATIVE RESULTS
 
 ## Fidelity Improvements Across Qubit Counts
+![Figure 3: Multi-Scale Comparison](../assets/03_Multi_Scale_Comparison.png)
+
 
 ### Complete Performance Table
 
@@ -327,8 +329,12 @@ This comprehensive batch job tested **15 different Y-sequence configurations**, 
 ---
 
 ## The 7.35% Improvement Explained
+![Figure 4: Fidelity Scaling Detail](../assets/04_Fidelity_Scaling_Detail.png)
+
 
 ### Understanding Relative vs Absolute Improvement
+![Figure 6: Error Reduction Visual](../assets/06_Error_Reduction_Visual.png)
+
 
 **Raw Numbers:**
 - Baseline fidelity: 50.17%
@@ -388,6 +394,8 @@ This provides:
 ---
 
 ## Three Discovered Regimes of Y-Sequence Behavior
+![Figure 1: Topological Phases](../assets/01_Topological_Phases.png)
+
 
 ### Topology-Dependent Quantum Control
 
@@ -622,6 +630,8 @@ Test on **two fundamentally different processor architectures** with distinct er
 ---
 
 ### Comparison to Other Quantum Error Mitigation Papers
+![Figure 8: Comparison Efficiency](../assets/08_Comparison_Efficiency.png)
+
 
 **Typical quantum experiment:**
 - ❌ Single device (1 processor)
@@ -640,8 +650,12 @@ Test on **two fundamentally different processor architectures** with distinct er
 ---
 
 ## Statistical Robustness
+![Figure 7: Superiority Proof](../assets/07_Superiority_Proof.png)
+
 
 ### Power Analysis
+![Figure 10: Statistical Significance Detail](../assets/10_Statistical_Significance_Detail.png)
+
 
 **Total Dataset:**
 - **94,208 measurements** across 23 circuits
@@ -1326,6 +1340,8 @@ q₀ → q₁ → q₂ → q₃ → q₄ → q₅ → q₆ (with specific Y-valu
 # PART VII: THE PROOF - WHY IT'S UNDENIABLE
 
 ## Evidence Summary
+![Figure 9: Stress Test Resilience](../assets/09_Stress_Test_Resilience.png)
+
 
 ### Direct Experimental Evidence
 
