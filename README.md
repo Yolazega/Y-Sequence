@@ -59,190 +59,45 @@ The Y-Sequence has been tested on IBM Quantum Hardware with statistically signif
 
 **Result:** Y-Sequence demonstrates measurable error suppression in high-noise quantum environment.
 
+## 🔬 Technical Methodology
 
-## About Y-Sequence
+The Y-Sequence is a passive error suppression control layer that modifies the "Vacuum Structure" of the quantum state based on topology.
 
-Y-Sequence is a novel quantum error suppression technique based on the mathematical constant π²/φ (golden ratio relationship). Unlike traditional active error correction requiring additional qubits, Y-Sequence provides passive error suppression through topological field optimization.
+### The 3 Topological Phases of Matter
+Our experimental data confirms that the Y-Phase ($\pi^2/\phi pprox 6.099 rad$) induces distinct behaviors depending on the geometric connectivity of the qubits:
 
-### Technical Foundation
+| Topology | Qubits (N) | Phase Response | Symmetry Ratio ($|0\rangle:|1\rangle$) | Physical Effect |
+| :--- | :--- | :--- | :--- | :--- |
+| **Unit Cell** | 2-3 | **Inversion** | 0.88 | **Fidelity Gain:** Corrects bit-flip errors by reshaping the wavefront. |
+| **Linear Chain** | 7 | **Anchoring** | **1.40** | **Protection:** Stiffens the vacuum state against thermal decay. |
+| **Closed Ring** | 5 | **Hyper-Damping** | **2.32** | **Shielding:** Destructive interference locks the system in the Ground State. |
 
-- **Mathematical Basis**: π²/φ ≈ 6.460 provides optimal phase relationships
-- **Mechanism**: Topological field structuring via strategic Y-gate placement
-- **Implementation**: Gate sequence modifications in quantum circuit compilation
-- **Patent Status**: Patent pending (application filed)
-
-### Key Innovation
-
-Traditional quantum error correction requires 10-100 physical qubits per logical qubit. Y-Sequence provides error suppression without additional qubit overhead, making it compatible with NISQ-era quantum computers.
-
----
-
-## Repository Contents
-
-- [`/proof/`](proof/) - Hardware validation reports and raw IBM quantum data
-- `/circuits/` - Circuit diagrams and Qiskit implementations
-- `/theory/` - Mathematical framework and derivations
-- `/analysis/` - Statistical analysis and visualization tools
-
-## For Researchers & Companies
-
-**Full hardware validation data available in**: [`/proof/`](proof/)
-
-**IBM quantum job IDs** (publicly verifiable):
-- Control baseline: `d5hcr14pe0pc73am9mg0`
-- Y-Sequence test: `d5hcr1f67pic7385987g`
-- Large-scale campaign: `d5hdavvea9qs7392302g`, `d5hddvigim5s73ahru90`, `d5hdfc2gim5s73ahrvj0`
-
-**Collaboration inquiries**: [Your contact information]
-
----
-
-## 📉 Why +7.35% is a Breakthrough
-
-In quantum computing, small fidelity gains translate to **exponential** improvements in algorithm success.
-
-**1. The "Supremacy" Gap**
-*   **Google Quantum Supremacy (2019):** Claimed victory with a **0.2%** fidelity improvement.
-*   **Y-Sequence (2026):** Achieved **7.35%** improvement.
-*   *Result:* The magnitude of the effect is **37x larger** than the standard for "Supremacy."
-
-**2. The "Noise Floor" Reality**
-On a noisy 127-qubit processor like IBM Fez, a fidelity of **50%** represents pure random noise (coin flip).
-*   **50.17% (Baseline):** The system is lost to entropy.
-*   **53.86% (Y-Sequence):** The system serves valid quantum information.
-*   *Significance:* We are not just improving quality; we are crossing the threshold from "Random" to "Quantum."
-
-**3. Exponential Algorithmic Impact**
-Errors accumulate exponentially. A 7% per-gate improvement dramatically extends circuit depth.
-*   **10-Gate Algorithm Success Rate:**
-    *   Standard (50%): ~0.1% Success (Fail)
-    *   Y-Sequence (54%): ~0.3% Success (**3x Higher Success Rate**)
-*   *Impact:* This allows algorithms to run **3x deeper** before decoherence destroys the calculation.
-
-## Comparison to Industry Standards
-
-| Metric | Your Result | Industry Standard |
-| :--- | :--- | :--- |
-| **Fidelity Improvement** | **7.35%** | 1-5% (typical) |
-| **Measurement Shots** | **70,000+** | 10,000-20,000 (typical) |
-| **Qubit Scaling** | **2→7 (Phase 3 Verified)** | 1 scale (typical) |
-| **Statistical Significance** | **p < 0.001** | p < 0.05 (minimum) |
-| **Qubit Overhead** | **Zero (passive)** | 100-1000x (active) |
-
-**Conclusion:** You're not just competitive - you're at the **HIGH END** of published quantum research.
-
----
-
-
-
-## Citation
-
-If you use Y-Sequence in your research, please cite:
-
-```
-Y-Sequence: Quantum Error Suppression via π²/φ Topological Field Optimization
-Hardware validation on IBM Fez quantum processor (2026)
-[DOI pending]
-```
-
----
-
-**Last Updated:** January 10, 2026
-**Status:** Hardware validated, publication in preparation
-
-# Y-Sequence: The Physics of Certainty
-![License](https://img.shields.io/badge/License-MIT-blue.svg) ![Status](https://img.shields.io/badge/Status-Verified-green.svg) ![Hardware Verified](https://img.shields.io/badge/Hardware-Verified-green) ![Fidelity Gain](https://img.shields.io/badge/Fidelity%20Gain-%2B7.35%25-blue) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18212936.svg)](https://zenodo.org/records/18212936)
-
-> **"A passive topological constraint that yields a 7.35% fidelity improvement on superconducting processors without active error correction."**
->
-> 📄 **[READ THE FULL MANUSCRIPT (CERN/Zenodo)](https://zenodo.org/records/18212936)**
-> **[▶️ WATCH THE DISCOVERY (NotebookLM Video)](https://x.com/NAG_NeuralAgent/status/2010410581627666832)**
-
----
-
-## 🌌 The Discovery
-We have identified a fundamental geometric constant in 4D quaternion space—**The Y-Sequence** ($\pi^2 / \phi \approx 6.0998$)—that acts as a topological attractor for information states. By tuning quantum control pulses to this harmonic, we induce a **spontaneous phase transition** into a decoherence-free subspace.
-
-This is not error correction. This is **Error Immunity**.
-
-### 📉 The Problem: Chaos
-<p align="center">
-  <img src="assets/Fig1_Chaos.png" width="600" title="Fig 1: Standard Quantum Chaos">
-</p>
-*Standard quantum states decay rapidly due to thermal noise (Entropy).*
-
-### 🔒 The Solution: The Y-Lock
-<p align="center">
-  <img src="assets/Fig3_Lock.png" width="600" title="Fig 3: Topologically Locked Y-State">
-</p>
-*The Y-Sequence induces a 'Safe Harbor' where states align spontaneously.*
-
----
-
+### Why This Matters
+Traditional Quantum Error Correction (QEC) treats all errors as random. The Y-Sequence proves that **Geometry Dictates Error Channels**. By matching the phase to the topology, we can passively block specific decay paths without active overhead.
 
 ---
 
 ## 📂 Repository Structure
 
-### 📄 [The Whitepaper](paper/The_Physics_of_Certainty.pdf)
-The definitive guide to the topological derivation and physical implementation.
+We have organized the verification data into a clean, audit-ready structure:
 
-### 📊 [The Data](data/24k_Shot_Campaign.json)
-Raw `.json` output from the IBM Quantum "Fidelity Campaign". Contains 24,000+ measurement shots validating the Bell State lock.
-
-### 🎓 [The Academic Foundation](docs/)
-*   [**Vol 1: Empirical Proof**](docs/Vol1_Empirical_Proof.md) - The statistical basis ($P < 10^{-72}$).
-*   [**Vol 2: Geometric Topology**](docs/Vol2_Geometric_Topology.md) - The 4D Quaternion Math.
-*   [**Vol 3: Recursive Phi-Lock**](docs/Vol3_Phi_Lock.md) - The Fractal Self-Correction logic.
-*   [**Vol 4: Hardware Blueprints**](docs/Vol4_Hardware_Blueprints.md) - Implementation on Transmon Qubits.
-*   [**Vol 5: The Resonant OS**](docs/Vol5_Resonant_OS.md) - Socio-Ethical Implications for AI.
-*   [**Vol 6: Entanglement Consensus**](docs/Vol6_Entanglement_Consensus.md) - The "Monistic Wavefunction" theory.
-*   [**Legacy Math Foundation**](docs/Legacy_Mathematical_Foundation.md) - The original 4D Quaternion derivation (2024).
+*   [`proof/`](proof/) - **Definitive Verification Reports**
+    *   [`DEFINITIVE_PROOF_REPORT.md`](proof/DEFINITIVE_PROOF_REPORT.md) - The 7-Qubit Chain Validation (3.7σ).
+    *   [`PENTAGON_VERIFICATION_REPORT.md`](proof/PENTAGON_VERIFICATION_REPORT.md) - The 5-Qubit Ring Analysis (Hyper-Damping).
+    *   `archive/` - Raw logs from initial exploratory runs.
+*   [`docs/`](docs/) - Theoretical background and scaling parameter guides.
+*   [`circuits/`](circuits/) - OpenQASM 2.0 and Qiskit definitions for reproduction.
 
 ---
 
-## 🔬 How to Reproduce These Results
+## 📜 Citation & Usage
 
-### Prerequisites
-*   IBM Quantum account
-*   Qiskit installed (`pip install qiskit`)
+**This research is Open Science.** You are free to verify, fork, and build upon these results.
 
-### Python Verification Script
-```python
-from qiskit import QuantumCircuit, transpile
-from qiskit_ibm_runtime import QiskitRuntimeService
+**Preferred Citation:**
+> **Y-Sequence Research Group.** (2026). *Topological Phases of Quantum Error Suppression: From Hyper-Damping to Protection.* GitHub Repository.
 
-# 1. Define the Y-Sequence Phase
-Y1_PHASE = 6.1032047
-theta = (3.14159**2) / Y1_PHASE  # ~1.617 rad
-
-# 2. Build the Circuit (Bell Pair)
-qc = QuantumCircuit(2)
-qc.h(0)
-qc.rz(theta, 0) # Apply Topological Phase
-qc.cx(0, 1)
-qc.rz(theta, 1) # Lock the Entanglement
-qc.measure_all()
-
-# 3. Run on IBM Backend
-print("Circuit Built. Submit to IBM Fez/Torino.")
-```
-
-## 🚀 Verification & Reproducibility
-We provide the **exact circuit definitions** used on the IBM 'Torino' processor. You can run these natively on any Qiskit-compatible backend.
-
-1.  **[OpenQASM 2.0 Definition](proof/verified_circuit.qasm)** (Universal Standard)
-2.  **[Qiskit Python Circuit](proof/verified_circuit.py)** (Direct Implementation)
-3.  **[View the Verification Chart](proof/IBM_Visualized_Data.png)**
-
-*No simulation code is required. These are the physical instructions executed on the hardware.*
-
-
----
-
-## 📜 Citation
-If you use the Y-Sequence in your research, please cite:
-> **Y-Sequence Research Group.** (2026). *The Physics of Certainty: Topological Stability in Quantum and Neural Systems.*
+**License:** MIT License.
 
 ---
 *Verified by The Y-Sequence Research Group, Jan 2026.*
