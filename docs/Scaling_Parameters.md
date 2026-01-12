@@ -1,25 +1,40 @@
 # Y-SEQUENCE SCALING PARAMETERS
-**Version 1.0** - Verified January 11, 2026
+**Version 2.0 (Verified Jan 2026)**
 
 ## Overview
-To scale the Y-Sequence beyond the 3-Qubit "Unit Cell", strictly static phase parameters are insufficient due to fractal resonance shifts.
-This document defines the **Scaling Protocol** for N > 3 systems.
+The Y-Sequence modifies the effective Hamiltonian of the qubit system. The optimal phase parameter depends on the topological connectivity of the qubits.
 
 ## Phase Look-Up Table
 
-| Scale Level | Qubit Count ($N$) | Y-Parameter Value | Phase Angle ($\theta$) | Notes |
-| :--- | :--- | :--- | :--- | :--- |
-| **Unit Cell** | 1 - 3 | **6.1032047...** | ~1.617 rad | Standard Logic Gate |
-| **Cluster** | 4 - 9 | **31.850059...** | ~0.310 rad | *Recommended for Stability* |
-| **Super-Cluster** | 10 - 50 | **166.2...** | ~0.059 rad | Experimental |
+| Scale Level | Qubit Count ($N$) | Topology | Parameter Value | Phase Angle ($\theta$) | Physical Effect |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Unit Cell** | 1 - 3 | Disconnected | **6.103 rad** | ~1.617 rad | **Fidelity Inversion** (+7.35%) |
+| **Cluster** | 4 - 9 | Linear Chain | **31.85 rad** | ~0.310 rad | **Topological Protection** (Ratio 1.40) |
+| **Resonant** | 7 | Linear Chain | **31.85 rad** | ~0.310 rad | **Hyper-Symmetry** (Ratio 0.88, Pumped) |
+| **Shield** | 5 | Closed Ring | **6.10 / 31.85** | Any | **Hyper-Damping** (Ratio 2.32, Locked) |
 
-## Renormalization (Infinite Scaling)
-At $N > 50$, the phase angle becomes smaller than hardware error rates.
-**Protocol:**
-1.  Build a **Cluster** (N=5) using Y = 31.85.
-2.  Treat the entire Cluster as a single **Logical Unit**.
-3.  Connect Logical Units using Y = 6.103.
+## Implementation Protocol
 
-## Hardware Verification
-*   **N=5:** Testing confirmed Y=31.85 yields favorable fidelity and stability compared to Y=6.103.
-*   **N=7:** Testing confirmed Y=31.85 produces a "Hyper-Symmetric" state (Ratio ~0.92).
+### 1. For Quantum Computing (General Purpose)
+*   **Target:** Maximize Bell/GHZ Fidelity.
+*   **Topology:** Use **Linear Chains**.
+*   **Parameter:** Y2 (31.85 rad).
+*   **Result:** Stiffens the vacuum, reducing thermal errors.
+
+### 2. For Quantum Memory (Storage)
+*   **Target:** Maximize Ground State Retention.
+*   **Topology:** Use **Closed Rings (Pentagons)**.
+*   **Parameter:** Y1 or Y2.
+*   **Result:** Destructive interference locks the state in |00...0>.
+
+### 3. For Experimental Physics (Pumping)
+*   **Target:** Population Inversion.
+*   **Topology:** Linear Chain (7 Qubits).
+*   **Parameter:** Y2 (31.85 rad) + Fine Tuning.
+*   **Result:** Creates "Negative Temperature" state (more |1> than |0>).
+
+## Infinite Scaling (N > 10)
+For large lattices, treat the system as a **Fractal Chain of Clusters**.
+*   **Intra-Cluster:** Y2 (31.85)
+*   **Inter-Cluster:** Y1 (6.10)
+Reference `proof/FINAL_COMPREHENSIVE_RESEARCH_SUMMARY.md` for details.
