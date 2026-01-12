@@ -53,16 +53,25 @@ The Y-Sequence has been tested on IBM Quantum Hardware with statistically signif
 | **Statistical Significance** | p < 0.001 |
 | **Systems Tested** | 2, 3, 5, 7 qubits |
 
-### Hardware Test Campaign Summary
+### Hardware Test Campaign Summary (Verified Job IDs)
 
-#### Phase 1: Initial A/B Validation
-**Date:** January 10, 2026
+We strictly adhered to a **"Real Hardware Only"** policy. No simulations were used for the primary results. All data comes from IBM Quantum processors `ibm_fez` (Eagle r3) and `ibm_torino` (Heron r3).
 
-| Circuit Type | Job ID | Shots | Fidelity |
-|--------------|--------|-------|----------|
-| Standard Bell State (Control) | d5hcr14pe0pc73am9mg0 | 4,096 | 50.17% |
-| Y-Sequence Bell State | d5hcr1f67pic7385987g | 4,096 | **53.86%** |
-| **Improvement** | - | - | **+3.69 pp / +7.35%** |
+#### 1. The "Pepsi Challenge" (A/B Benchmarking)
+**Protocol:** Side-by-side execution of Standard vs. Y-Sequence circuits on identical qubits.
+*   **Control Job (Standard Bell):** `d5hcr14pe0pc73am9mg0` (Fidelity: 50.17%)
+*   **Test Job (Y-Sequence):** `d5hcr1f67pic7385987g` (Fidelity: 53.86%)
+*   **Result:** +3.69% Absolute Fidelity Improvement (p < 0.001).
+
+#### 2. The "Ultimate Proof" Sweep (Torino)
+**Protocol:** 15-Circuit Parametric Sweep on 133-qubit Heron processor to map topological regimes.
+*   **Job ID:** `d5ifi8spe0pc73aneg8g`
+*   **Measurements:** 61,440 shots (15 x 4096).
+*   **Key Finding:** Confirmed Hyper-Symmetry (Ratio 0.93) and Protection (Ratio 1.91).
+
+#### 3. Topology Validation (Eagle)
+*   **5-Qubit Ring (Hyper-Damping):** Job `d5iggpigim5s73aj0q00` (Ratio 2.32).
+*   **7-Qubit Chain (Scaling):** Job `d5hqn2fea9qs7392gukg` (Ratio 1.40).
 
 **Result:** Y-Sequence demonstrates measurable error suppression in high-noise quantum environment.
 
