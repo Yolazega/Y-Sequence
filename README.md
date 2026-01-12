@@ -20,12 +20,12 @@
 | Scale | Qubits | Topology | Key Result | Phase |
 |-------|--------|----------|------------|-------|
 | **Pair** | 2 | Bell State | **+7.35% relative fidelity** | Y1 (6.103) |
-| **Pentagon** | 5 | Ring | **+23% symmetry** (Ratio 0.88) | Y2 (31.85) |
+| **Pentagon** | 5 | **Ring** | **[Hyper-Damping](proof/PENTAGON_VERIFICATION_REPORT.md)** (Ratio 2.32) | Y1 & Y2 |
 | **Heptagon** | 7 | **Chain** | **[3.7σ Protection](proof/DEFINITIVE_PROOF_REPORT.md)** (Ratio 1.40) | Y2 (31.85) |
 
 We have successfully scaled the Y-Sequence beyond the initial 3-qubit limit.
 *   **7-Qubit Chain Validation:** The **Open Chain** topology acts as a "Topological Anchor" (Ratio 1.40), protecting the Ground State against thermal excitation.
-*   **5-Qubit Ring Observation:** The **Closed Ring** topology induces "Hyper-Symmetry" (Ratio 0.88), reversing the natural T1 decay direction.
+*   **5-Qubit Ring Observation:** The **Closed Ring** topology induces **Hyper-Damping** (Ratio 2.32), effectively locking the system in the Ground State (Zero Protection).
 *   **The Scaling Key:** Shifting to **Y2 (31.85)** stabilizes coupled lattices of $N \ge 5$.
 
 **Implementation Guide:**
