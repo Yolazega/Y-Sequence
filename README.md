@@ -103,7 +103,7 @@ We have organized the verification data into a clean, audit-ready structure:
 *   [`docs/`](docs/) - Theoretical background and scaling parameter guides.
 *   *(Circuits and raw definitions are embedded in the main reports)*
 
-> 📄 **[READ THE FULL MANUSCRIPT (CERN/Zenodo)](https://zenodo.org/records/18212936)**
+> 📄 **[READ THE FULL MANUSCRIPT (CERN/Zenodo)](https://zenodo.org/records/18212936)** | 🐦 **[Follow on X (@NAG_NeuralAgent)](https://x.com/NAG_NeuralAgent/status/2010779867227570367)**
 
 ---
 
