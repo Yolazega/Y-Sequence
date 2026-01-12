@@ -85,7 +85,7 @@ Our experimental data confirms that the Y-Phase ($\pi^2/\phi pprox 6.099 rad$) 
 
 Traditional Quantum Error Correction (QEC) treats all errors as random. The Y-Sequence proves that **Geometry Dictates Error Channels**. By matching the phase to the topology, we can passively block specific decay paths without active overhead.
 
-**[Read the Deep Analysis Report](proof/ULTIMATE_DEEP_ANALYSIS.md)** for a full breakdown.
+**[Read the Comprehensive Research Summary](proof/FINAL_COMPREHENSIVE_RESEARCH_SUMMARY.md)** for a full breakdown.
 
 1.  **Zero Overhead:** Uses standard gates (RZ, SX, CZ) with modified phases. No extra qubits, no extra time.
 2.  **Hardware Agnostic:** Validated on **Fixed Couplers** (Eagle) and **Tunable Couplers** (Heron).
