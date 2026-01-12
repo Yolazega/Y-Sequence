@@ -7,7 +7,7 @@
 > *   **Significance:** 3.7σ statistical confidence with **Zero Computational Overhead**.
 > *   **Impact:** A passive "software-only" upgrade that suppresses random noise by matching phase to topology.
 >
-> [View the Definitive Research Summary](proof/FINAL_COMPREHENSIVE_RESEARCH_SUMMARY.md)
+> [View the Definitive Research Summary](proof/ULTIMATE_DEEP_ANALYSIS.md)
 
 ## HARDWARE VALIDATION COMPLETE (January 2026)
 
