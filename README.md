@@ -101,6 +101,8 @@ Traditional Quantum Error Correction (QEC) treats all errors as random. The Y-Se
 3.  **Publication Grade Statistics:** 61,440+ shots with p < 0.01 significance.
 4.  **Cross-Platform Reproducibility:** The Hyper-Symmetry effect (Ratio < 1.0) survives across architecture generations.
 
+![PROOF OF SUCCESS](proof/PROOF_OF_SUCCESS.png)
+
 ## 6. Repository Structure
 
 We have organized the verification data into a clean, audit-ready structure:
